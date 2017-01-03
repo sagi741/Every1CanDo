@@ -1,59 +1,53 @@
 *{
 	margin: 0px;
-	padding-left: 32px
+	padding-left: 0px
 	
 }
 footer, header, article, section, main, nav, aside {
 	display:block;
 	}
 header{
-	height:210px;
+	height:160px;
 	background:#ffffff;
-	border-style: solid;
 }
 #logo {
 	width:270px;
 	display:block;
 	font-family:"Arial Black";
-	padding:100px;
+	padding:50px;
 	font-size:25px;
 	background: url(../images/logo.png) no-repeat left center;
 }
-header span{
-	font-size:45px;
-	font-family:cursive;
-	padding-left:0px;
-}
 .container {
+  height:585px;
+  width:100%;	
   background: linear-gradient(
     to right, 
-    #ff9e2c 0%, 
-    #ff9e2c 50%, 
-    #b6701e 50%, 
-    #b6701e 100%
+    #ee5f5b 0%, 
+    #ee5f5b 50%, 
+    #5bc0de 50%, 
+    #5bc0de 100%
   );
   z-index: 1;
 }
-nav{
-	height:155px;
-	background:#adad85;
-	border-style: solid;
-}
 
-nav a {
-	font-family:"Arial Black";
-	font-size:14px;
-	padding-right:20px;
-	padding-bottom: 12px;
-	padding-top:12px;
-	}
-nav a:hover {
-	color:  #6d6d46;
-	text-decoration:underline;
-}
 
 main{
 	height:auto;
-	background:#adad85;
-	border-style: solid;
 }
+footer{
+	height: 84px;
+	width: 100%;
+	background-color: #eeeeee;
+}
+
+.logo_name {
+    position: relative;
+    padding-left: 220px;
+    text-decoration: none;
+	
+
+}
+
+
+
