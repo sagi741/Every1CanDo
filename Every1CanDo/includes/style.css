@@ -6,3 +6,54 @@
 footer, header, article, section, main, nav, aside {
 	display:block;
 	}
+header{
+	height:210px;
+	background:#ffffff;
+	border-style: solid;
+}
+#logo {
+	width:270px;
+	display:block;
+	font-family:"Arial Black";
+	padding:100px;
+	font-size:25px;
+	background: url(../images/logo.png) no-repeat left center;
+}
+header span{
+	font-size:45px;
+	font-family:cursive;
+	padding-left:0px;
+}
+.container {
+  background: linear-gradient(
+    to right, 
+    #ff9e2c 0%, 
+    #ff9e2c 50%, 
+    #b6701e 50%, 
+    #b6701e 100%
+  );
+  z-index: 1;
+}
+nav{
+	height:155px;
+	background:#adad85;
+	border-style: solid;
+}
+
+nav a {
+	font-family:"Arial Black";
+	font-size:14px;
+	padding-right:20px;
+	padding-bottom: 12px;
+	padding-top:12px;
+	}
+nav a:hover {
+	color:  #6d6d46;
+	text-decoration:underline;
+}
+
+main{
+	height:auto;
+	background:#adad85;
+	border-style: solid;
+}
